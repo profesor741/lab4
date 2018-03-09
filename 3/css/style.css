@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+}
+.full{
+  font-size: 0;
+  border:1px solid #000;
+  max-width: 1000px;
+  width: 100%; 
+}
+.slider{
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slick-next::before, .slick-prev::before{
+  color: green;
+}
+
+.item {
+  /*float: left;*/
+  display: inline-block;
+  padding-top:5px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 330px;
+  overflow: hidden;
+  border-left: 1px solid #000;
+  /*border:1px solid #000;*/
+}
+.item_head, .item_name, .item_description, .item_coast{
+  text-align: center;
+}
+
+.item_head, .item_name, .item_coast{
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.item = button{
+  margin: 0 auto;
+}
