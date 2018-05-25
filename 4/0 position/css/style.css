@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 35px;
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	border: 4px solid blue;
+}
+
+.forcol{
+	position: relative;
+	float: left;		
+	border-right: 1px solid blue;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 195px;
+	height: 350px;
+}
+
+.forcolend{
+	border: none;
+}
+
+.col{
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	background: blue;
+}
+
+p{
+	position: absolute;
+	font-weight: bold;
+}
+
+.s1{
+	left: 9px;
+	top: 33px;
+}
+
+.s2{
+	left: 43px;
+	top: 68px;
+}
+
+.s1 p, .s2 p{
+	left: 35px;
+}
+
+.s3{
+	right: 10px;
+	top: 164px;
+}
+
+.s3 p{
+	right: 35px;
+}
+
+.s4{
+	left: 111px;
+	top: 55px;
+}
+
+.s4 p{
+	top: 5px;
+	right: 7px;
+}
+
+.s5{
+	right: 72px;
+	top: 163px;
+}
+
+.s5 p{
+	top: 0;
+	right: -20px;
+}
